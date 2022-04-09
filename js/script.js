@@ -4,8 +4,8 @@ function init() {
 
   var h2center = document.querySelector("h2[class='center']")
   h2center.textContent = "Qingbin Wang"
-  var h2center = document.querySelector("h3[class='center']")
-  h2center.textContent = "1445207429@qq.com"
+  var h3center = document.querySelector("h3[class='center']")
+  h3center.textContent = "1445207429@qq.com"
 
   function inputAlert() {
     var inputTxt = document.getElementById("entryinput").value
